@@ -10,4 +10,5 @@ urlpatterns = [
     path ('delete/<list_id>', views.delete, name='delete'),
     path ('Uncross/<list_id>', views.Uncross, name='Uncross'),
     path ('cross_off/<list_id>', views.cross_off, name='cross_off'),
+    path ('edit/<list_id>', views.edit, name='edit'),
 ]
